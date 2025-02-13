@@ -8,11 +8,11 @@ package com.mycompany.intervalos;
  *
  * @author Seven
  */
-public class ObtenerCategoria {
-    public static String ObtenerCategoria(int a) {
-        if (a < -4) {
+public class ObtenerIntervalo {
+    public static double ObtenerIntervalo(double k) {
+        if (k < -4) {
             return "Intervalo A";
-        } else if (a < 6) { //Ya se sabe que a >= -4 por el primer if
+        } else if (k < 6) {
             return "Intervalo B";
         } else {
             return "Intervalo C";
